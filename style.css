@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(61, 23, 47);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+}
+
+
+h2{ 
+    text-align: center;
+    color: white;
+    font-size: 350%;
+}
+
+
