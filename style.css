@@ -4,20 +4,45 @@ body{
 
 p{
     color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: 16px;
 }
 
 h1{
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 350%;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 h2{ 
     text-align: center;
     color: white;
-    font-size: 350%;
+    font-size: 22px;
 }
 
+img{
+    width: 50%;
+}
+a{
+    font-size: larger;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 118, 255);
+}
+.altP{
+    background-color: pink;
+    text-align: center;
+    color:black;
+
+}
+.tankar{
+    text-align: right;
+}
+.mig{
+    border: 3px solid pink;
+    border-radius: 10px;
+}
 
