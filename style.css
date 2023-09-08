@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(61, 23, 47);
+    background-color: white;
 }
 
 p{
@@ -33,16 +33,62 @@ a{
     color: rgb(77, 118, 255);
 }
 .altP{
-    background-color: pink;
+    background-color: black;
     text-align: center;
-    color:black;
+    color:white;
 
 }
 .tankar{
     text-align: right;
 }
 .mig{
-    border: 3px solid pink;
-    border-radius: 10px;
+
 }
 
+.wrapper{
+    display:grid;
+    width:100%;
+    margin:0 auto;
+    grid-template-rows: 50px 40px auto 50px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+header{
+    grid-area: header;
+    background-color: blue;
+    
+}
+footer{
+    grid-area: footer;
+    background-color: blue;
+    font-size: 30px;
+    text-align:center;
+}
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:black;
+    border-color:white;
+}
+nav{
+    grid-area: nav;
+    background-color: black;
+    border: 2px blue;
+}
+
+nav > ul{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    display:grid;
+    align-items: stretch;
+
+
+}
