@@ -1,4 +1,4 @@
-td{
+td,th{
     border: 1px solid black;
     text-align: center;  
 }
@@ -9,17 +9,11 @@ table,tr,td{
     margin:0 auto;
     height:25px;
 }
-tr:nth-child(3){
+tr:nth-child(3),tr:nth-child(5){
     background-color: red;
 }
-tr:nth-child(2){
+tr:nth-child(2), tr:nth-child(4){
     background-color: gold;
-}
-tr:nth-child(4){
-    background-color: gold;
-}
-tr:nth-child(5){
-    background-color: red;
 }
 
 td:nth-child(1){
@@ -28,7 +22,21 @@ td:nth-child(1){
 td:nth-child(4){
     text-align:right;
 }
-h1{
+caption{
     text-align:center;
    font-size: 30px;
+   caption-side: bottom;
+}
+th{
+    border: 1px solid black;
+    text-align: center;  
+    background-color:rgb(240, 238, 238)
+
+}
+
+th:nth-child(1){
+    text-align:left;
+}
+th:nth-child(4){
+    text-align:right;
 }
